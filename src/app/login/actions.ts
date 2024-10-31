@@ -60,7 +60,6 @@
 
 // Global cache object for connection status
 import mongoose from "mongoose";
-const string = "mongodb+srv://ab:ab123@cluster0.1yqzrrw.mongodb.net/newAPP?retryWrites=true&w=majority&appName=Cluster0"
 export const connect = async () => {
     try {
         await mongoose.connect(string);
